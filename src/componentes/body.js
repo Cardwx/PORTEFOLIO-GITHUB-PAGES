@@ -20,7 +20,6 @@ function body(){
 
                     {/*Link de referência para o git hub na div*/}
 
-                    <p>Olá mundo</p>
                     <div className='qualificacaoJavaScript'>
                                  <button className='logoJs' > < IoLogoJavascript /> </button> 
                     </div>
