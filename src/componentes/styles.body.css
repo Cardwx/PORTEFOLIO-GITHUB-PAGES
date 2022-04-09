@@ -51,7 +51,7 @@
     display: flex;
     padding: 30px;
     align-items: center;
-    flex-wrap:nowrap;
+    flex-wrap:wrap;
     flex-direction:row;
 }
 /*DIVS das qualificações e suas respectivas configs*/
@@ -74,7 +74,7 @@
 .qualificacaoCss{
     border-radius: 20px;
     text-align: center;
-    padding-right: 20px;
+  
 }
 
 /*Orietançaõ dos buttons dentro das divs*/
@@ -250,6 +250,9 @@
 /*Teste de commit*/
 
 .conhecaMais{
+  
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
