@@ -48,9 +48,22 @@
     display: flex;
     width: 650px;
 }
+.btnLinke{
+    background-color: rgb(64,1,145);
+    padding: 15px;
+    margin: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    border: 2px solid white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
 .btnUser{
     background-color:rgba(117, 98, 224, 1);
     padding: 15px;
+    border: 1px solid black;
     margin: 15px;
     font-size: 20px;
     border: none;
@@ -59,8 +72,18 @@
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+/*Animaçao btn user e linkedin*/
 
-
+.btnLinke:hover{
+    background-color: white;
+    color:rgb(64,1,145) ;
+    border: 1px solid rgb(64,1,145);
+}
+.btnUser:hover{
+    background-color: white;
+    color:rgb(64,1,145) ;
+    border: 1px solid rgb(64,1,145);
+}
 
 
 

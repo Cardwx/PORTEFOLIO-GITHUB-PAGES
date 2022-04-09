@@ -1,4 +1,4 @@
-
+import { AiFillLinkedin } from "react-icons/ai";
 import './styles.nav.css';
 import { AiOutlineUser } from "react-icons/ai";
 
@@ -13,6 +13,7 @@ function Nav(){
                 emprego como desenvolvedor front-end  </p> 
                     <div className='btns'>
                     <button className='btnUser'>Sobre Mim <AiOutlineUser/></button>
+                    <button className='btnLinke'>Linkedin <AiFillLinkedin/></button>
                     </div>
                 
             </div>
