@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Portefolio-lucas-cardoso-barbeiro/static/css/main.22ad98f8.css",
-    "main.js": "/Portefolio-lucas-cardoso-barbeiro/static/js/main.0da0fe91.js",
+    "main.js": "/Portefolio-lucas-cardoso-barbeiro/static/js/main.7dd95b8b.js",
     "static/media/maps.jpg": "/Portefolio-lucas-cardoso-barbeiro/static/media/maps.c2f491f1eb555c97f700.jpg",
     "static/media/checklist_dom.jpg": "/Portefolio-lucas-cardoso-barbeiro/static/media/checklist_dom.a0731a631b2e2eae28ea.jpg",
     "static/media/form.jpg": "/Portefolio-lucas-cardoso-barbeiro/static/media/form.76e9db3b667ce3f53101.jpg",
     "index.html": "/Portefolio-lucas-cardoso-barbeiro/index.html",
     "main.22ad98f8.css.map": "/Portefolio-lucas-cardoso-barbeiro/static/css/main.22ad98f8.css.map",
-    "main.0da0fe91.js.map": "/Portefolio-lucas-cardoso-barbeiro/static/js/main.0da0fe91.js.map"
+    "main.7dd95b8b.js.map": "/Portefolio-lucas-cardoso-barbeiro/static/js/main.7dd95b8b.js.map"
   },
   "entrypoints": [
     "static/css/main.22ad98f8.css",
-    "static/js/main.0da0fe91.js"
+    "static/js/main.7dd95b8b.js"
   ]
 }
