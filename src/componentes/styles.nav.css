@@ -1,0 +1,67 @@
+/*Formataçao dos textos*/
+.titulo{
+    display: flex;
+    padding: 20px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.subTitulo{
+    display: flex;
+    font-size: 40px;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.texto{
+    display: flex;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/*Formatação dos elementos*/
+
+.body{
+    background-color:  rgba(0, 0, 54, 1);
+      display:flex ;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /*
+   justify-content: flex-start;
+    flex-direction: column;
+    align-items: center;
+    */
+    
+}
+
+/*Aqui vai a minha foto*/
+
+
+/*Estilo do botão sobre mim*/
+.btns{
+    display: flex;
+    width: 650px;
+}
+.btnUser{
+    background-color:rgba(117, 98, 224, 1);
+    padding: 15px;
+    margin: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+
+
+
+
