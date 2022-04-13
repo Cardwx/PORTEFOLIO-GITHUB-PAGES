@@ -54,7 +54,7 @@ function body(){
                             
                             <div className='projetoCheck'>
                             <img src = {Imagem} className='imagemCheck'/>
-                            <h2 className='tituloImagem'>Checklist DOM</h2>
+                            <h2 className='tituloImagem'>Checklist </h2>
                             <p className='textoImagem'>Projeto de Checklist utilizando Javascript com manipulação DOM. </p>
                                 <div className='btnsPro'> 
                                     {/** Adicionando os links ao botoões */}
@@ -70,7 +70,7 @@ function body(){
 
                             <div className='projetoCep'>
                                 <img src = {Imagem4} className='imagemCep'/>
-                                <h2 className='tituloImagem'>Buscador de CEP</h2>
+                                <h2 className='tituloImagem'>Buscador  CEP</h2>
                                 <p className='textoImagem'>Primeiro projeto utilizando ReactJs, sendo feito um buscador de CEP. </p>
                                 
                                 <div className='btnsPro'> 
@@ -88,7 +88,7 @@ function body(){
                             <div className='projetoForm'> 
                                 <img src = {Imagem5} className='imagemForm'/>
                                 <h2 className='tituloImagem'>Formulário JS</h2>
-                                <p className='textoImagem'>Projeto de formulário responsivo utilizando JS, HTML e CSS.</p>
+                                <p className='textoImagem'>Projeto de formulário responsivo utilizando JS, HTML e CSS com simples validações.</p>
                                 
                                 <div className='btnsPro'> 
                                     <a href=' https://github.com/Cardwx/javaScript/tree/master/Formul%C3%A1rio%20com%20JS' target="_blank"> 
