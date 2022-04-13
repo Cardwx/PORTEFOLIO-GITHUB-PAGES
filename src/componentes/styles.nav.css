@@ -12,11 +12,7 @@
     color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-.textos{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
+
 .texto{
     display: flex;
     padding: 10px;
@@ -28,10 +24,11 @@
 
 .body{
     background-color:  rgba(0, 0, 54, 1);
-      display:flex ;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: flex-start;
     flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    display: flex;
     /*
    justify-content: flex-start;
     flex-direction: column;
@@ -44,10 +41,7 @@
 
 
 /*Estilo do botão sobre mim*/
-.btns{
-    display: flex;
-    width: 650px;
-}
+
 .btnLinke{
     background-color: rgb(64,1,145);
     padding: 15px;
@@ -63,7 +57,7 @@
 .btnUser{
     background-color:rgba(117, 98, 224, 1);
     padding: 15px;
-    border: 1px solid black;
+    border: 2px solid black;
     margin: 15px;
     font-size: 20px;
     border: none;

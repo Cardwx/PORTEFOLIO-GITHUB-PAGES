@@ -2,11 +2,11 @@
 /*Formatação dos textos*/
 .sobreMim{
     background-color:  rgba(0, 0, 54, 1);
-    display:flex ;
     justify-content: flex-start;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
+    display: flex;
 }
  .textoImagem{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -47,31 +47,36 @@
 /*Bloco pai das qualificações*/
 
 .qualificacao{
-    height: 250px;
-    display: flex;
+    height: 200px;
     padding: 30px;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
     align-items: center;
-    flex-wrap:wrap;
-    flex-direction:row;
+    display: flex;
 }
 /*DIVS das qualificações e suas respectivas configs*/
 .qualificacaoJavaScript{
+    display: flex;
     border-radius: 20px;
     text-align: center;
     padding-right: 20px;
 }
 .qualificacaoReact{
+    display: flex;
     border-radius: 20px;
     text-align: center;
     padding-right: 20px;
    
 }
 .qualificacaoHtml{
+    display: flex;
     text-align: center;
     padding-right: 20px;
     
 }
 .qualificacaoCss{
+    display: flex;
     border-radius: 20px;
     text-align: center;
   
@@ -87,7 +92,7 @@
     background-color: #090113f3;
     border: none;
     border: 1px solid black;
-}/*teste*/
+}
 .logoRc{
     width: 150px;
     height: 150px;
@@ -152,9 +157,8 @@
 /*Edição das imagens*/
 .projetos{
     display: flex;
-    align-items: center;
     flex-wrap: wrap;
-    flex-direction: row;
+   
 }
 .imagemCheck,  .imagemForm{
     background-color: black;
@@ -249,10 +253,8 @@
 }
 /*Teste de commit*/
 
-.conhecaMais{
-  
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 
+.conhecaMais{
+    flex-wrap: wrap;
+    display: flex;
+}

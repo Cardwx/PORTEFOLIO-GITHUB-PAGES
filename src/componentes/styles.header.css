@@ -7,12 +7,13 @@
     align-items: center;
     background-color: #05000af3;
     height: 50px;
+    flex-direction: row;
 }
 
 /* Estilização componente icons*/
 
 .iconReact{
-    background-color: black;
+    background-color: #05000af3;
     color: rgb(11, 97, 167);
     font-size: 40px;
     display: flex;
@@ -24,7 +25,7 @@
 }
 .iconJs{
     color: rgb(243, 207, 2);
-    background-color: black;
+    background-color: #05000af3;
     font-size: 40px;
     display: flex;
     padding-left: 10px;
@@ -39,11 +40,11 @@
     padding-left: 10px;
     padding-right: 10px;
     border: none;
-    background-color: black;
+    background-color: #05000af3;
 }
 .iconCss{
     color: rgb(82, 102, 212);
-    background-color: black;
+    background-color: #05000af3;
     font-size: 40px;
     display: flex;
     padding-left: 10px;

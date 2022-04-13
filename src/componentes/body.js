@@ -48,10 +48,10 @@ function body(){
                     </div>
                  
                 </div>
-                        <h1 className='conhecaMais'>Conheça mais sobre os meus projetos:</h1>
-
+                       
+                             <h1 className='conhecaMais'>Conheça mais sobre os meus projetos:</h1>
                             <div className='projetos'> 
-
+                            
                             <div className='projetoCheck'>
                             <img src = {Imagem} className='imagemCheck'/>
                             <h2 className='tituloImagem'>Checklist DOM</h2>

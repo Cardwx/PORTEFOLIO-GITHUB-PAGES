@@ -6,7 +6,7 @@ function Nav(){
     return(
         <div className='body'> 
 
-            <div className='textos'> 
+            
                 <h2 className='titulo'>  Olá, me chamo </h2> 
                 <h1 className='subTitulo'> Lucas Cardoso</h1>
                 <p className='texto'> Estudante de ciência da computação e buscando meu primeiro <br/>
@@ -20,7 +20,7 @@ function Nav(){
                    
                     </div>
                 
-            </div>
+          
 
              
         </div>
