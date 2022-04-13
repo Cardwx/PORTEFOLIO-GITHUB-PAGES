@@ -9,7 +9,7 @@ import ContactUs from './componentes/contactForm';
 function App() {
   return (
     <div className="App">
-      <Header/> 
+      
       <Nav/>
       <Separar/>
       <Body/>

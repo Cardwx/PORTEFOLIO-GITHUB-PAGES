@@ -7,6 +7,7 @@
     flex-wrap: nowrap;
     align-items: center;
     display: flex;
+    
 }
  .textoImagem{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -47,13 +48,13 @@
 /*Bloco pai das qualificações*/
 
 .qualificacao{
-    height: 200px;
     padding: 30px;
+    display: flex;
     justify-content: flex-start;
     flex-direction: row;
     flex-wrap: wrap;
     align-items: center;
-    display: flex;
+    
 }
 /*DIVS das qualificações e suas respectivas configs*/
 .qualificacaoJavaScript{
@@ -76,15 +77,15 @@
     
 }
 .qualificacaoCss{
-    display: flex;
     border-radius: 20px;
     text-align: center;
-  
+    display: flex;
 }
 
 /*Orietançaõ dos buttons dentro das divs*/
 
 .logoJs{
+   
     width: 150px;
     height: 150px;
     font-size: 80px;
@@ -94,6 +95,7 @@
     border: 1px solid black;
 }
 .logoRc{
+  
     width: 150px;
     height: 150px;
     font-size: 80px;
@@ -103,6 +105,7 @@
     border: 1px solid black;
 }
 .logoHtml{
+    
     width: 150px;
     height: 150px;
     font-size: 80px;
