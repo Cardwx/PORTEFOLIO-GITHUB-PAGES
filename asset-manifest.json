@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/porteReactHub-main/static/css/main.de359327.css",
-    "main.js": "/porteReactHub-main/static/js/main.fa8337f1.js",
+    "main.css": "/porteReactHub-main/static/css/main.f3073ba7.css",
+    "main.js": "/porteReactHub-main/static/js/main.4e17cf89.js",
     "static/media/maps.jpg": "/porteReactHub-main/static/media/maps.c2f491f1eb555c97f700.jpg",
     "static/media/checklist_dom.jpg": "/porteReactHub-main/static/media/checklist_dom.a0731a631b2e2eae28ea.jpg",
     "static/media/form.jpg": "/porteReactHub-main/static/media/form.76e9db3b667ce3f53101.jpg",
     "index.html": "/porteReactHub-main/index.html",
-    "main.de359327.css.map": "/porteReactHub-main/static/css/main.de359327.css.map",
-    "main.fa8337f1.js.map": "/porteReactHub-main/static/js/main.fa8337f1.js.map"
+    "main.f3073ba7.css.map": "/porteReactHub-main/static/css/main.f3073ba7.css.map",
+    "main.4e17cf89.js.map": "/porteReactHub-main/static/js/main.4e17cf89.js.map"
   },
   "entrypoints": [
-    "static/css/main.de359327.css",
-    "static/js/main.fa8337f1.js"
+    "static/css/main.f3073ba7.css",
+    "static/js/main.4e17cf89.js"
   ]
 }
