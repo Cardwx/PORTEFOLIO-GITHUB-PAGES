@@ -1,13 +1,14 @@
 import emailjs from "emailjs-com";
-import React from 'react';
 import './styles.contact.css';
-export default function ContactUs() {
+
+
+ function contactForm() {
 
 
     function sendEmail(e) {
         e.preventDefault();
 
-    emailjs.sendForm('gmail', 'template_726l5rm', e.target, 'KEXfDK7orjjMNk5Mz')
+    emailjs.sendForm('gmailMessage', 'template_726l5rm', e.target, 'KEXfDK7orjjMNk5Mz')
 
         .then((result) => {
             alert("Mensagem enviada com sucesso! 👍");
@@ -29,7 +30,7 @@ export default function ContactUs() {
                     <h2 className="tituloForm">Contato:</h2>
                         <div className="textoEmail">
                             <label>Nome:</label>
-                            <input type="text" autoFocus className="form-control" required placeholder="Nome" name="name"/>
+                            <input type="text"  className="form-control" required placeholder="Nome" name="name"/>
                         </div>
                         <div className="textoEmail">
                         <label>Email:</label>
@@ -51,3 +52,4 @@ export default function ContactUs() {
         </div>
     )
 }
+export default contactForm;

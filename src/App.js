@@ -1,5 +1,4 @@
 import Nav from "./componentes/Nav";
-import Header from "./componentes/Header";
 import Separar from "./componentes/Separar";
 import Body from "./componentes/body";
 import 'bootstrap/dist/css/bootstrap.min.css';
