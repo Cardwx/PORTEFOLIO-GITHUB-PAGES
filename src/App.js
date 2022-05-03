@@ -8,13 +8,13 @@ import ContactUs from './componentes/contactForm';
 function App() {
   return (
     <div className="App">
-      
-      <Nav/>
-      <Separar/>
-      <Body/>
-      <Separar/>
-      <ContactUs/> 
-      </div>
+
+      <Nav />
+      <Separar />
+      <Body />
+      <Separar />
+      <ContactUs />
+    </div>
   );
 }
 

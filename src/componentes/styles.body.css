@@ -1,17 +1,15 @@
 
 /*Formatação dos textos*/
 .sobreMim{
-    background-color:  rgba(0, 0, 54, 1);
-    justify-content: flex-start;
+    background-color:  #05000af3;
     flex-direction: column;
     flex-wrap: nowrap;
-    align-items: center;
     display: flex;
-    
 }
  .textoImagem{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: white;
+    display: flex;
 }
 .tituloImagem{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -31,14 +29,14 @@
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .tituloSobreMim{
-    display: flex;
+    color: rgba(117, 98, 224, 1);
+    justify-content: flex-start;
     padding: 10px;
-    color: white;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .conhecaMais{
     padding: 10px;
-    color: white;
+    color: rgba(117, 98, 224, 1);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -50,11 +48,9 @@
 .qualificacao{
     padding: 30px;
     display: flex;
-    justify-content: flex-start;
-    flex-direction: row;
     flex-wrap: wrap;
-    align-items: center;
-    
+    flex-direction: row;
+    justify-content: center;
 }
 /*DIVS das qualificações e suas respectivas configs*/
 .qualificacaoJavaScript{
@@ -110,7 +106,7 @@
     border: 1px solid black;
 }
 .logoHtml{
-    
+
     width: 150px;
     height: 150px;
     font-size: 80px;
@@ -129,7 +125,7 @@
     border: 1px solid black;
 }
 /*Animação dos buttons*/
-.logoJs:hover, .logoJs:focus{
+.logoJs:hover{
     color: black;
     outline: 0;
     background-color: rgb(243, 207, 2);
@@ -137,7 +133,7 @@
     transition-delay: 0.2s;
     border: 1px solid white;
 }
-.logoRc:hover, .logoRc:focus{
+.logoRc:hover{
     background-color: rgb(82, 102, 212);
     transition-duration: 0.2s;
     transition-delay: 0.2s;
@@ -145,7 +141,7 @@
     outline: 0;
     border: 1px solid white;
 }
-.logoHtml:hover, .logoHtml:focus{
+.logoHtml:hover{
     background-color: rgb(167, 94, 11);
     transition-duration: 0.2s;
     transition-delay: 0.2s;
@@ -153,7 +149,7 @@
     outline: 0;
     border: 1px solid white;
 }
-.logoCss:hover, .logoCss:focus{
+.logoCss:hover{
     background-color: rgb(21, 28, 138);
     color: black;
     outline: 0;
@@ -166,6 +162,7 @@
 .projetos{
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-around;
    
 }
 .imagemCheck,  .imagemForm{
@@ -233,28 +230,28 @@
 }
 
 /*Animação das divs com as imagens*/
-.projetoCheck:hover, .projetoCheck:focus{
+.projetoCheck:hover{
     transition-duration: 0.2s;
     color: black;
     border: 1px solid black;
 }
-.projetoCep:hover, .projetoCep:focus{
+.projetoCep:hover{
     transition-duration: 0.2s;
     color: black;
     border: 1px solid black;
 }
 /*Animação das divs com as imagens*/
-.projetoForm:hover, .projetoForm:focus{
+.projetoForm:hover{
     transition-duration: 0.2s;
     color: black;
     border: 1px solid black;
 }
-.repositorioGitCheck:hover, .repositorioGitCheck:focus{
+.repositorioGitCheck:hover{
     transition-duration: 0.2s;
     color: black;
     background-color: white;
 }
-.viewLive:hover, .viewLive:focus{
+.viewLive:hover{
     transition-duration: 0.2s;
     color: white;
     background-color: black;
