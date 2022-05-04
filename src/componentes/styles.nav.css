@@ -32,12 +32,23 @@
     align-items: center;
 }
 .imagem-svg{
-    width: 400px;
+    position: relative;
+    align-self: center;
+    width: 400px; 
+    
 }
 .minhaFoto{
-    flex-direction: row;
-    flex-wrap: wrap;
     display: flex;
+    justify-content: center;
+    
+    flex-basis: 1;
+}
+.imagemLucas{
+    align-self: center;
+    width: 250px;
+    position: absolute;
+   
+
 }
 /*Aqui vai a minha foto*/
 
@@ -45,7 +56,7 @@
 /*Estilo do botão sobre mim*/
 
 .btnLinke{
-    background-color: rgb(64,1,145);
+    background-color: #05000a41;
     padding: 15px;
     margin: 15px;
     font-size: 20px;
@@ -53,7 +64,7 @@
     border-radius: 10px;
     cursor: pointer;
     color: white;
-    border: 2px solid white;
+    border: 2px solid rgb(64,1,145);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .btnUser{
@@ -75,17 +86,6 @@
 .btns{
     display: flex;
     flex-direction: row;
-}
-
-.btnLinke:hover{
-    background-color: white;
-    color:rgb(64,1,145) ;
-    border: 1px solid rgb(64,1,145);
-}
-.btnUser:hover{
-    background-color: white;
-    color:rgb(64,1,145) ;
-    border: 1px solid rgb(64,1,145);
 }
 
 

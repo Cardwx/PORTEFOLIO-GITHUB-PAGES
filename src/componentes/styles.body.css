@@ -228,6 +228,22 @@
    font-size: 20px;
    cursor: pointer;
 }
+/*DIV dos serviços oferecidos*/
+.services{
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-left: 20px;
+    
+}
+
+.uiDiv{
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    display: flex;
+}
 
 /*Animação das divs com as imagens*/
 .projetoCheck:hover{
