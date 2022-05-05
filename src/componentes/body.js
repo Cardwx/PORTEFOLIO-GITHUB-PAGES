@@ -8,6 +8,9 @@ import { AiFillHtml5 } from "react-icons/ai";
 import { FaCss3Alt } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
 import { BiCode } from "react-icons/bi";
+import { MdDesignServices } from "react-icons/md";
+import {SiGithubactions} from "react-icons/si";
+import {CgWebsite} from "react-icons/cg";
 function body() {
     return (
         <div className='sobreMim'>
@@ -50,11 +53,35 @@ function body() {
             </div>
                 <div className='services'>
                 <h1 className='conhecaMais'>Veja os serviços que eu ofereço:</h1>
+                {/*DIV criada para alinhar o flex box dos itens filhos*/}
+                <div className='servicesOffer'>
                 <div className='uiDiv'>
+                    {/*UI icon*/}
+                   <p className='iconUi'><MdDesignServices/></p>
+                    {/*Texto do UI*/}
+                    <h1 className='titleUi'> UI Design</h1>
                     <p className='textoUi'>
-                Olá, me chamo Lucas Cardoso, sou desenvolvedor Front-end Júnior e estou em busca do meu primeiro emprego como Dev. <br />
-                Veja abaixo um pouco das minhas qualificações:
+                    Desenvolvimento de Sites utilizando Figma como base para o layout
             </p>
+                
+                </div>
+                <div className='gitDiv'>
+                    <p className='iconGit'><SiGithubactions/></p>
+                <h1 className='titleGit'> Git Hub</h1>
+                    <p className='textoGit'>
+                    Versionamento de códigos utilizando GitHub e GitHub desktop
+            </p>
+                
+                </div>
+
+                <div className='devDiv'>
+                    <p className='iconWeb'><CgWebsite/></p>
+                    <h1 className='titleWeb'> Web</h1>
+                    <p className='textoDiv'>
+                Desenvolvimento de sites utilizando Javascript, HTML, CSS e conhecimento em alguns frameworks como, Reactjs e Bulma css
+            </p>
+                
+                </div>
                 </div>
                 </div>
             <h1 className='conhecaMais'>Conheça mais sobre os meus projetos:</h1>
