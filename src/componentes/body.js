@@ -17,38 +17,30 @@ function body() {
             <h1 className='tituloSobreMim'>Sobre Mim:</h1>
             <p className='textoSobreMim'>
                 Olá, me chamo Lucas Cardoso, sou desenvolvedor Front-end Júnior e estou em busca do meu primeiro emprego como Dev. <br />
-                Veja abaixo um pouco das minhas qualificações:
+                Veja abaixo um pouco das minhas proficiências:
             </p>
+            {/*informações a respeito das proficiências*/}
             <div className='qualificacao'>
+                {/*DIV UI*/}
+               <div className='qualiPurple'>
+               <p className='iconUi'><MdDesignServices/></p>
+                <h2 className='titleQuali'>UI & UX DESIGN</h2>
+               </div>
 
-                {/*Link de referência para o git hub na div*/}
+               <div className='quali'>
+               <p className='iconWeb'><CgWebsite /></p>
+               <h2 className='titleQuali'>WEB DEV</h2>
+               </div>
 
-                <div className='qualificacaoJavaScript'>
-                    <button className='logoJs' > < IoLogoJavascript /> </button>
-                </div>
-
-
-                {/*Link de referência para o git hub na div*/}
-
-
-                <div className='qualificacaoReact'>
-                    <button className='logoRc'> < DiReact /></button>
-                </div>
-
-
-                {/*Link de referência para o git hub na div*/}
-
-
-                <div className='qualificacaoHtml'>
-                    <button className='logoHtml'> < AiFillHtml5 /></button>
-                </div>
-
-
-                {/*Link de referência para o git hub na div*/}
-
-                <div className='qualificacaoCss'>
-                    <button className='logoCss'>< FaCss3Alt /> </button>
-                </div>
+               <div className ='quali'>
+               <p className='iconUi'><MdDesignServices/></p>
+               <h2 className='titleQuali'>UI & UX DESIGN</h2>
+               </div>
+               
+               <div className='quali'>
+               <p className='iconUi'><MdDesignServices/></p>
+               <h2 className='titleQuali'>UI & UX DESIGN</h2>
+               </div>
 
             </div>
                 <div className='services'>

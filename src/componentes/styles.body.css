@@ -5,6 +5,7 @@
     flex-direction: column;
     flex-wrap: nowrap;
     display: flex;
+    
 }
  .textoImagem{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -43,118 +44,12 @@
 .tituloImagem{
     padding: 10px;
 }
-/*Bloco pai das qualificações*/
-
-.qualificacao{
-    padding: 30px;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: center;
-}
-/*DIVS das qualificações e suas respectivas configs*/
-.qualificacaoJavaScript{
-    margin-top: 5px;
-    border-radius: 20px;
-    text-align: center;
-}
-.qualificacaoReact{
-    margin-top: 5px;
-    border-radius: 20px;
-    text-align: center;
-
-   
-}
-.qualificacaoHtml{
-    margin-top: 5px;
-    text-align: center;
-}
-.qualificacaoCss{
-    margin-top: 5px;
-    border-radius: 20px;
-    text-align: center;
-}
-
-/*Orietançaõ dos buttons dentro das divs*/
-
-.logoJs{
-   
-    width: 150px;
-    height: 150px;
-    font-size: 80px;
-    color: white;
-    background-color: #090113f3;
-    border: none;
-    border: 1px solid black;
-}
-.logoRc{
-  
-    width: 150px;
-    height: 150px;
-    font-size: 80px;
-    color: white;
-    background-color: #090113f3;
-    border: none;
-    border: 1px solid black;
-}
-.logoHtml{
-
-    width: 150px;
-    height: 150px;
-    font-size: 80px;
-    color: white;
-    background-color: #090113f3;
-    border: none;
-    border: 1px solid black;
-}
-.logoCss{
-    width: 150px;
-    height: 150px;
-    font-size: 80px;
-    color: white;
-    background-color: #090113f3;
-    border: none;
-    border: 1px solid black;
-}
-/*Animação dos buttons*/
-.logoJs:hover{
-    color: black;
-    outline: 0;
-    background-color: rgb(243, 207, 2);
-    transition-duration: 0.2s;
-    transition-delay: 0.2s;
-    border: 1px solid white;
-}
-.logoRc:hover{
-    background-color: rgb(82, 102, 212);
-    transition-duration: 0.2s;
-    transition-delay: 0.2s;
-    color: black;
-    outline: 0;
-    border: 1px solid white;
-}
-.logoHtml:hover{
-    background-color: rgb(167, 94, 11);
-    transition-duration: 0.2s;
-    transition-delay: 0.2s;
-    color: black;
-    outline: 0;
-    border: 1px solid white;
-}
-.logoCss:hover{
-    background-color: rgb(21, 28, 138);
-    color: black;
-    outline: 0;
-    transition-duration: 0.2s;
-    transition-delay: 0.2s;
-    border: 1px solid white;
-}
-
 /*Edição das imagens*/
 .projetos{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     justify-content: space-around;
+    flex-shrink: 1;
    
 }
 .imagemCheck,  .imagemForm{
@@ -303,5 +198,40 @@
     color: rgba(117, 98, 224, 1);
 }
 .titleUi{
+    color: rgba(117, 98, 224, 1);
+}
+/*                  ESTIALIZAÇÃO DAS PROFICIÊNCIAS*/
+
+.quali{
+    width: 200px;
+    height: 200px;
+    margin: 2px;
+    background-color: grey;
+}
+
+.qualificacao{
+    padding: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleQuali{
+    padding: 20px;
+    color: white;
+    padding-left: 10px;
+}
+.qualiPurple{
+     background-color:rgba(117, 98, 224, 1);
+     width: 200px;
+     height: 200px;
+     margin: 2px;
+}
+.titleWeb{
+    
+}
+.iconWeb{
     color: rgba(117, 98, 224, 1);
 }

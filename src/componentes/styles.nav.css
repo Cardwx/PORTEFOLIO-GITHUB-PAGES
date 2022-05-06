@@ -25,6 +25,7 @@
     background-color:  #05000af3;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    
 }
 .informacoes{
     display: flex;
@@ -40,7 +41,6 @@
 .minhaFoto{
     display: flex;
     justify-content: center;
-    
     flex-basis: 1;
 }
 .imagemLucas{

@@ -18,12 +18,12 @@ function Nav() {
 
                 <button className='btnUser' >
                     {/*Adicionando a ainimação do sobre mim para realizar o direcionamento da página para o sobre mim*/}
-                    <Link activeClass="active" to="sobreMim" spy={true} smooth={true}offset={-70} duration={1700}>
+                    <Link activeClass="active" to="sobreMim" spy={true} smooth={true}offset={-70} duration={170}>
                         Sobre Mim  <AiOutlineUser /> </Link> </button>
                     
                     <button className='btnLinke'>
                          {/*Adicionando a ainimação do projetos para realizar o direcionamento da página para os projetos*/}
-                    <Link activeClass="active" to="projetos" spy={true} smooth={true}offset={-70} duration={1700}>
+                    <Link activeClass="active" to="projetos" spy={true} smooth={true}offset={-70} duration={170}>
                         Projetos  <AiFillEye /> </Link> </button>
                
                 </div>
