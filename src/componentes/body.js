@@ -32,15 +32,6 @@ function body() {
                <h2 className='titleQuali'>WEB DEV</h2>
                </div>
 
-               <div className ='quali'>
-               <p className='iconUi'><MdDesignServices/></p>
-               <h2 className='titleQuali'>UI & UX DESIGN</h2>
-               </div>
-               
-               <div className='quali'>
-               <p className='iconUi'><MdDesignServices/></p>
-               <h2 className='titleQuali'>UI & UX DESIGN</h2>
-               </div>
 
             </div>
                 <div className='services'>
