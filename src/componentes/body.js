@@ -102,22 +102,7 @@ function body() {
                         </a>
                     </div>
                 </div>
-                <div className='projetoForm'>
-                    <img src={Imagem5} className='imagemForm' />
-                    <h2 className='tituloImagem'>Formulário JS</h2>
-                    <p className='textoImagem'>Projeto de formulário responsivo utilizando JS, HTML e CSS com simples validações.</p>
-
-                    <div className='btnsPro'>
-                        <a href=' https://github.com/Cardwx/javaScript/tree/master/Formul%C3%A1rio%20com%20JS' target="_blank">
-                            <button className='repositorioGitCheck'><p> <AiFillGithub /></p></button>
-                        </a>
-
-                        <a href='https://cardwx.github.io/FormGitHubPages/index.html' target="_blank">
-                            <button className='viewLive'><p> <BiCode /></p></button>
-                        </a>
-                    </div>
-
-                </div>
+                
 
             </div>
 
