@@ -1,7 +1,6 @@
 import './styles.body.css';
 import Imagem from './imagens/checklist_dom.jpg';
 import Imagem4 from './imagens/maps.jpg';
-import Imagem5 from './imagens/form.jpg';
 import { IoLogoJavascript } from "react-icons/io";
 import { DiReact } from "react-icons/di";
 import { AiFillHtml5 } from "react-icons/ai";
@@ -11,32 +10,68 @@ import { BiCode } from "react-icons/bi";
 import { MdDesignServices } from "react-icons/md";
 import {SiGithubactions} from "react-icons/si";
 import {CgWebsite} from "react-icons/cg";
+import {DiSass, DiVisualstudio} from "react-icons/di";
+import {BsFillBootstrapFill} from "react-icons/bs"
+import {FiFigma} from "react-icons/fi"
+import {SiTrello} from "react-icons/si";
 function body() {
     return (
         <div className='sobreMim'>
             <h1 className='tituloSobreMim'>Sobre Mim:</h1>
             <p className='textoSobreMim'>
-                Olá, me chamo Lucas Cardoso, sou desenvolvedor Front-end Júnior e estou em busca do meu primeiro emprego como Dev. <br />
-                Veja abaixo um pouco das minhas proficiências:
+                Olá, me chamo Lucas Cardoso Barbeiro, sou desenvolvedor Front-end e estou em busca do meu primeiro emprego como Dev.
+                Veja abaixo um pouco das minhas proficiências e ferramentas no qual trabalhei:
             </p>
+
             {/*informações a respeito das proficiências*/}
+            <h1 className='tituloLinguagens'>Linguagens:</h1>
             <div className='qualificacao'>
-                {/*DIV UI*/}
+
+                {/*DIV LINGUAGENS DE PROGRAMAÇÃO*/}
+                
                <div className='qualiPurple'>
-               <p className='iconUi'><MdDesignServices/></p>
-                <h2 className='titleQuali'>UI & UX DESIGN</h2>
+               <h1 className='iconJs'><IoLogoJavascript/></h1>
                </div>
-
                <div className='quali'>
-               <p className='iconWeb'><CgWebsite /></p>
-               <h2 className='titleQuali'>WEB DEV</h2>
+               <h1 className='iconJs'><FaCss3Alt/></h1>
                </div>
+               <div className='quali'>
+               <h1 className='iconJs'><AiFillHtml5/></h1>
+               </div>
+               <div className='quali'>
+               <h1 className='iconJs'><DiReact/></h1>
+               </div>
+               <div className='qualiPurple'>
+               <h1 className='iconJs'><DiSass/></h1>
+               </div>
+            </div>
+            <h1 className='tituloLinguagens'>Entre outros:</h1>
+            <div className='qualificacao'>
 
 
+                {/*DIV ENTRE OUTROS*/}
+                
+               <div className='quali'>
+               <h1 className='iconJs'><DiVisualstudio/></h1>
+               </div>
+               <div className='quali'>
+               <h1 className='iconJs'><BsFillBootstrapFill/></h1>
+               </div>
+               <div className='qualiPurple'>
+               <h1 className='iconJs'><FiFigma/></h1>
+               </div>
+               <div className='quali'>
+               <h1 className='iconJs'><SiTrello/></h1>
+               </div>
+               <div className='qualiPurple'>
+               <h1 className='iconJs'><DiSass/></h1>
+               </div>
             </div>
                 <div className='services'>
                 <h1 className='conhecaMais'>Veja os serviços que eu ofereço:</h1>
+
                 {/*DIV criada para alinhar o flex box dos itens filhos*/}
+
                 <div className='servicesOffer'>
                 <div className='uiDiv'>
                     {/*UI icon*/}
@@ -61,7 +96,7 @@ function body() {
                     <p className='iconWeb'><CgWebsite/></p>
                     <h1 className='titleWeb'> Web</h1>
                     <p className='textoDiv'>
-                Desenvolvimento de sites utilizando Javascript, HTML, CSS e conhecimento em alguns frameworks como: Reactjs e Bulma css
+                Desenvolvimento de sites utilizando JavaScript, HTML, CSS (SASS, GRID, FLEX-BOX E MEDIA QUERY) e experiência em alguns frameworks como: Reactjs, Bulma css
             </p>
                 
                 </div>
