@@ -1,8 +1,5 @@
 import './styles.body.css';
-import Imagem from './imagens/checklist_dom.jpg';
-import Imagem4 from './imagens/maps.jpg';
-import { IoLogoJavascript } from "react-icons/io";
-import { DiReact } from "react-icons/di";
+import Imagem from './imagens/checklist_dom.jpg';import Imagem4 from './imagens/maps.jpg';import { IoLogoJavascript } from "react-icons/io";import { DiReact } from "react-icons/di";
 import { AiFillHtml5 } from "react-icons/ai";
 import { FaCss3Alt } from "react-icons/fa";
 import { AiFillGithub } from "react-icons/ai";
