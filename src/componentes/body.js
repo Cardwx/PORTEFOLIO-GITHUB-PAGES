@@ -60,9 +60,7 @@ function body() {
                <div className='quali'>
                <h1 className='iconJs'><SiTrello/></h1>
                </div>
-               <div className='qualiPurple'>
-               <h1 className='iconJs'><DiSass/></h1>
-               </div>
+              
             </div>
                 <div className='services'>
                 <h1 className='conhecaMais'>Veja os serviços que eu ofereço:</h1>
