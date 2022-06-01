@@ -36,7 +36,6 @@
     position: relative;
     align-self: center;
     width: 400px; 
-    
 }
 .minhaFoto{
     display: flex;
@@ -47,8 +46,6 @@
     align-self: center;
     width: 250px;
     position: absolute;
-   
-
 }
 /*Aqui vai a minha foto*/
 
@@ -90,4 +87,15 @@
 
 
 
+                /*   MEDIA QUERY PARA RESPONSIVIDADE*/
+                /*  muda tamanho da imagem dependendo os pixels da tela do celular */
 
+@media (max-width:650px){
+    .imagem-svg{
+        width: 0;
+    }
+    .imagemLucas{
+       
+        width: 0;
+    }
+}

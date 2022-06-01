@@ -47,7 +47,7 @@
 /*Edição das imagens*/
 .projetos{
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
     justify-content: space-around;
     flex-shrink: 1;
    
@@ -229,4 +229,6 @@
      height: 200px;
      margin: 2px;
 }
+
+                    /*IDENTAÇÃO DE MEDIA QUERY*/
 

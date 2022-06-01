@@ -61,7 +61,7 @@ function body() {
                     <p className='iconWeb'><CgWebsite/></p>
                     <h1 className='titleWeb'> Web</h1>
                     <p className='textoDiv'>
-                Desenvolvimento de sites utilizando Javascript, HTML, CSS e conhecimento em alguns frameworks como, Reactjs e Bulma css
+                Desenvolvimento de sites utilizando Javascript, HTML, CSS e conhecimento em alguns frameworks como: Reactjs e Bulma css
             </p>
                 
                 </div>
