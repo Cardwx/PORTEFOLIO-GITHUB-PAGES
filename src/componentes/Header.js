@@ -1,18 +1,18 @@
 import './styles.header.css';
-import { SiReact } from "react-icons/si";
-import { DiJavascript1 } from "react-icons/di";
-import { DiCss3 } from "react-icons/di";
-import { AiFillHtml5 } from "react-icons/ai";
-{/*teste* */}
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
+import { AiOutlineWhatsApp } from "react-icons/ai";
 function Header(){
     return(
             <div className='cabecalho'>
-                
-                <button className='iconReact'> <SiReact className=''/> </button>
-                <button className='iconHtml'> <AiFillHtml5/> </button>
-                <button className='iconCss'> <DiCss3/> </button>
-                <button className='iconJs'> <DiJavascript1/> </button>
-
+                <a href='https://api.whatsapp.com/send?phone=5519993712098' target="_blank"> 
+                <h1 className='wppIcon'><AiOutlineWhatsApp/></h1>
+                </a>
+                <a href='https://github.com/Cardwx' target="_blank"> 
+                <h1 className='linkIcon'><AiFillGithub/></h1>
+                </a>
+                <a href='https://www.linkedin.com/in/lucas-cardoso-barbeiro-a9238619b/' target="_blank"> 
+                <h1 className='gitIcon'><AiFillLinkedin/></h1>
+                </a>
             </div>
         
     )

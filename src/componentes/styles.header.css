@@ -4,124 +4,15 @@
     display: flex;
     flex-wrap: wrap;
     justify-content:center;
-    align-items: center;
     background-color: #05000af3;
     flex-direction: row;
+    height: 40px;
 }
 
-/* Estilização componente icons*/
+/*identação icons*/
 
-.iconReact{
-    background-color: #05000af3;
-    color: rgb(11, 97, 167);
-    font-size: 40px;
-    display: flex;
-    padding-left: 10px;
-    padding-right: 10px; 
-    margin-right: 6px; 
-    border: none;
-    
+.wppIcon,.linkIcon, .gitIcon{
+    color:rgba(117, 98, 224, 1); 
+    padding-right: 5px;   
 }
-.iconJs{
-    color: rgb(243, 207, 2);
-    background-color: #05000af3;
-    font-size: 40px;
-    display: flex;
-    padding-left: 10px;
-    padding-right: 10px; 
-    margin-right: 6px; 
-    border: none;
-}
-/*Atualizaçao*/
-.iconHtml{
-    color: rgb(167, 94, 11);
-    font-size: 40px;
-    display: flex;
-    padding-left: 10px;
-    padding-right: 10px; 
-    margin-right: 6px; 
-    border: none;
-    background-color: #05000af3;
-}
-.iconCss{
-    color: rgb(82, 102, 212);
-    background-color: #05000af3;
-    font-size: 40px;
-    display: flex;
-    padding-left: 10px;
-    padding-right: 10px; 
-    margin-right: 6px; 
-    border: none;
-}
-
-/*Animação box shadow icons*/
-.iconReact:hover
-{
-          box-shadow:
-                1px 1px #53a7ea,
-                2px 2px #53a7ea,
-                3px 3px #53a7ea;
-        -webkit-transform: translateX(-3px);
-        transform: translateX(-3px);
-}
-.iconLinke:hover
-{
-          box-shadow:
-                1px 1px #0565b3,
-                2px 2px #0565b3,
-                3px 3px #53a7ea;
-        -webkit-transform: translateX(-3px);
-        transform: translateX(-3px);
-}
-.iconHub:hover
-{
-          box-shadow:
-                1px 1px #bccbd8,
-                2px 2px #bccbd8,
-                3px 3px #bccbd8;
-        -webkit-transform: translateX(-3px);
-        transform: translateX(-3px);
-}
-.iconHtml:hover
-{
-          box-shadow:
-                1px 1px rgb(167, 94, 11),
-                2px 2px rgb(167, 94, 11),
-                3px 3px rgb(167, 94, 11);
-        -webkit-transform: translateX(-3px);
-        transform: translateX(-3px);
-}
-.iconJs:hover
-{
-          box-shadow:
-          1px 1px rgb(243, 207, 2),
-          2px 2px rgb(243, 207, 2),
-          3px 3px rgb(243, 207, 2);
-        -webkit-transform: translateX(-3px);
-        transform: translateX(-3px);
-}
-.iconNodeJs:hover
-{
-          box-shadow:
-                1px 1px rgb(17, 238, 47),
-                2px 2px rgb(17, 238, 47),
-                3px 3px rgb(17, 238, 47);
-        -webkit-transform: translateX(-3px);
-        transform: translateX(-3px);
-}
-.iconCss:hover
-{
-          box-shadow:
-                1px 1px #53a7ea,
-                2px 2px #53a7ea,
-                3px 3px #53a7ea;
-        -webkit-transform: translateX(-3px);
-        transform: translateX(-3px);
-}
-
-
-
-
-
-
 

@@ -27,7 +27,7 @@ function contactForm() {
 
                 <form onSubmit={sendEmail} className='formInput'>
                     <div className="formEmail">
-                        <h2 className="tituloForm">Contato:</h2>
+                        <h2 className="tituloForm">Entre em contato:</h2>
                         <div className="textoEmail">
                             <label>Nome:</label>
                             <input type="text" className="form-control" required placeholder="Nome" name="name" />

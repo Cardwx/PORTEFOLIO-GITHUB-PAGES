@@ -21,7 +21,6 @@
     text-align: center;
     font-size: 20px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 10px;
 }
 .textoSobreMim{
     display: flex;
@@ -55,7 +54,7 @@
 .projetos{
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
     flex-shrink: 1;
    
 }
@@ -92,7 +91,11 @@
     border-radius: 20px;
     background-color:  rgb(25, 25, 31);
 }
-
+.qualiText{
+    color: white;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
 /*Tratamento da imagem ao passar o mouse*/
 
 /*------------------------------------------------------------------ Edição dos buttons com link para o repositório de cada projeto*/
